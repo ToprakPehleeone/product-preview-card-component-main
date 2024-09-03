@@ -36,6 +36,10 @@ h1{
     border-bottom-left-radius: 15px;
 }
 
+#img_mobile{
+    display: none;
+}
+
 .info{
     padding: 35px;
 }
@@ -79,6 +83,11 @@ h1{
     font-weight: 600;
 }
 
+#add_btn:hover{
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}
+
 #icon{
     display: inline-block;
     vertical-align: middle;
@@ -86,9 +95,31 @@ h1{
 }
 
 .attribution{
+    margin-top: 50px;
     font-size: 11px;
     text-align: center;
 }
 .attribution a{
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:600px){
+    .main_section{
+        flex-direction: column;
+        width: 90%;
+    }
+    #img_desktop{
+        display: none;
+    }
+    #img_mobile{
+        display: block;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    body{
+        font-size: clamp(1rem, 0.8rem + 1vw, 3rem);
+    }
+    #add_btn{
+        width: 100%;
+    }
 }
