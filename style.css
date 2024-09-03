@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+p{
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+h1{
+    font-family: 'Fraunces';
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    color: hsl(212, 21%, 14%);
+}
+
+.main_section{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    margin-top: 200px;
+    border-radius: 15px;
+    background-color: white;
+}
+#img_desktop{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.info{
+    padding: 35px;
+}
+
+#info_header{
+    letter-spacing: .5rem;
+    margin-bottom: 15px;
+    
+}
+
+#info_product{
+    padding: 30px 0px;
+    line-height: 1.5rem;
+}
+
+.prices{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#price_dsc{
+    font-size: 2.1rem;
+    font-family: 'Fraunces';
+    font-weight: bolder;
+    color:hsl(158, 36%, 37%);
+}
+
+#price_old{
+    padding: 10px 0px 0px 30px;
+    text-decoration: line-through;
+}
+
+#add_btn{
+    width: 230px;
+    height: 50px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+#icon{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
